@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "80. Remove Duplicates from 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "169. Majority Element", "169. Majority Element\169. Majority Element.csproj", "{A528E5F7-9C48-4AC3-BDD7-70DD98E47362}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "189. Rotate Array", "189. Rotate Array\189. Rotate Array.csproj", "{76748CC7-531F-4D42-86B3-9AA42DB76606}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{A528E5F7-9C48-4AC3-BDD7-70DD98E47362}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A528E5F7-9C48-4AC3-BDD7-70DD98E47362}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A528E5F7-9C48-4AC3-BDD7-70DD98E47362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76748CC7-531F-4D42-86B3-9AA42DB76606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76748CC7-531F-4D42-86B3-9AA42DB76606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76748CC7-531F-4D42-86B3-9AA42DB76606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76748CC7-531F-4D42-86B3-9AA42DB76606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
