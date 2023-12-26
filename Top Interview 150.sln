@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26. Remove Duplicates from 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "80. Remove Duplicates from Sorted Array II", "80. Remove Duplicates from Sorted Array II\80. Remove Duplicates from Sorted Array II.csproj", "{82912264-B70F-408F-9FEE-B2DDF65DD8A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "169. Majority Element", "169. Majority Element\169. Majority Element.csproj", "{A528E5F7-9C48-4AC3-BDD7-70DD98E47362}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{82912264-B70F-408F-9FEE-B2DDF65DD8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82912264-B70F-408F-9FEE-B2DDF65DD8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82912264-B70F-408F-9FEE-B2DDF65DD8A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A528E5F7-9C48-4AC3-BDD7-70DD98E47362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A528E5F7-9C48-4AC3-BDD7-70DD98E47362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A528E5F7-9C48-4AC3-BDD7-70DD98E47362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A528E5F7-9C48-4AC3-BDD7-70DD98E47362}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
