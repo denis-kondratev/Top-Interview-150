@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "169. Majority Element", "16
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "189. Rotate Array", "189. Rotate Array\189. Rotate Array.csproj", "{76748CC7-531F-4D42-86B3-9AA42DB76606}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "121. Best Time to Buy and Sell Stock", "121. Best Time to Buy and Sell Stock\121. Best Time to Buy and Sell Stock.csproj", "{6799DD6A-61B9-42C2-8ED1-A30D11B97A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "122. Best Time to Buy and Sell Stock II", "122. Best Time to Buy and Sell Stock II\122. Best Time to Buy and Sell Stock II.csproj", "{8ABB64D8-C542-47C7-B2AF-9050549824AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{76748CC7-531F-4D42-86B3-9AA42DB76606}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76748CC7-531F-4D42-86B3-9AA42DB76606}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76748CC7-531F-4D42-86B3-9AA42DB76606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6799DD6A-61B9-42C2-8ED1-A30D11B97A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6799DD6A-61B9-42C2-8ED1-A30D11B97A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6799DD6A-61B9-42C2-8ED1-A30D11B97A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6799DD6A-61B9-42C2-8ED1-A30D11B97A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ABB64D8-C542-47C7-B2AF-9050549824AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ABB64D8-C542-47C7-B2AF-9050549824AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ABB64D8-C542-47C7-B2AF-9050549824AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ABB64D8-C542-47C7-B2AF-9050549824AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
