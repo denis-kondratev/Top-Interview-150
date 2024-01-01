@@ -34,16 +34,11 @@ public class Solution
     {
         var max = 0;
         
-        for (var i = 0; i < nums.Length; i++)
+        for (var i = 0; i < nums.Length && max >= i; i++)
         {
-            if (i > max)
-            {
-                return false;
-            }
-            
             max = Math.Max(max, i + nums[i]);
         }
         
-        return true;
+        return max >= nums.Length - 1;
     }
 }
