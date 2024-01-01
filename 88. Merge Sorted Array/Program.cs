@@ -39,7 +39,7 @@
  * nums2.length == n
  * 0 <= m, n <= 200
  * 1 <= m + n <= 200
- * -109 <= nums1[i], nums2[j] <= 109
+ * -109 <= nums1[i], nums2[j] <= 10^9
  * 
  * Follow up: Can you come up with an algorithm that runs in O(m + n) time?
  */
