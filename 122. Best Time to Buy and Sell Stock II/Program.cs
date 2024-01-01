@@ -31,8 +31,8 @@
  *
  * Constraints:
  *
- * 1 <= prices.length <= 3 * 104
- * 0 <= prices[i] <= 104
+ * 1 <= prices.length <= 3 * 10^4
+ * 0 <= prices[i] <= 10^4
  */
 
 Console.WriteLine("Hello, World!");
@@ -41,23 +41,16 @@ public class Solution
 {
     public int MaxProfit(int[] prices)
     {
-        var minPrice = prices[0];
-        var maxPrice = minPrice;
-        var profit = 0;
+        var maxProfit = 0;
         
-        for (var i = 1; i < prices.Length; i++)
+        for (int l = 0, r = 1; r < prices.Length; l++, r++)
         {
-            if (prices[i] > maxPrice)
+            if (prices[r] > prices[l])
             {
-                maxPrice = prices[i];
-            }
-            else
-            {
-                profit = maxPrice - minPrice;
-                minPrice = maxPrice = prices[0];
+                maxProfit += prices[r] - prices[l];
             }
         }
 
-        return profit;
+        return maxProfit;
     }
 }
