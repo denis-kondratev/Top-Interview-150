@@ -3,9 +3,9 @@
  * https://leetcode.com/problems/h-index/?envType=study-plan-v2&envId=top-interview-150
  *
  * Given an array of integers citations where citations[i] is the number of citations a researcher received for their
- * ith paper, return the researcher's h-index. According to the definition of h-index on Wikipedia: The h-index is
- * defined as the maximum value of h such that the given researcher has published at least h papers that have each
- * been cited at least h times.
+ * ith paper, return the researcher's h-index. According to the definition of h-index on Wikipedia
+ * (https://en.wikipedia.org/wiki/H-index): The h-index is defined as the maximum value of h such that the given
+ * researcher has published at least h papers that have each been cited at least h times.
  *
  * Example 1:
  *
@@ -33,6 +33,9 @@ public class Solution
 {
     public int HIndex(int[] citations)
     {
-        return 0;
+        Array.Sort(citations, (m, n) => n - m);
+        int h = 0, n = citations.Length;
+        for (; h < n && citations[h] > h; h++) { }
+        return h;
     }
 }
