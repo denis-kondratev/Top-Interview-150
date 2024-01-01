@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "122. Best Time to Buy and S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "55. Jump Game", "55. Jump Game\55. Jump Game.csproj", "{9B1A5906-AC46-41B3-B880-D727B638B48A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "45. Jump Game II", "45. Jump Game II\45. Jump Game II.csproj", "{28A04CB9-E29A-4034-AE6F-94CAC376AEA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{9B1A5906-AC46-41B3-B880-D727B638B48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B1A5906-AC46-41B3-B880-D727B638B48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B1A5906-AC46-41B3-B880-D727B638B48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A04CB9-E29A-4034-AE6F-94CAC376AEA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A04CB9-E29A-4034-AE6F-94CAC376AEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A04CB9-E29A-4034-AE6F-94CAC376AEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A04CB9-E29A-4034-AE6F-94CAC376AEA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
