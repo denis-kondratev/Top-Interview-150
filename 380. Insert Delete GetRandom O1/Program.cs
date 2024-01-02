@@ -5,7 +5,7 @@
  * Implement the RandomizedSet class:
  *
  * RandomizedSet() Initializes the RandomizedSet object.
- * 
+ *
  * - bool insert(int val) Inserts an item val into the set if not present. Returns true if the item was not present,
  *   false otherwise.
  * - bool remove(int val) Removes an item val from the set if present. Returns true if the item was present,
@@ -40,35 +40,52 @@
  * There will be at least one element in the data structure when getRandom is called.
  */
 
-Console.WriteLine("Hello, World!");
+var obj = new RandomizedSet();
+var param1 = obj.Insert(0);
+var param2 = obj.Remove(1);
+var param3 = obj.GetRandom();
+Console.WriteLine($"{param1}, {param2}, {param3}");
 
 public class RandomizedSet
 {
+    private readonly Random _random;
+    private readonly Dictionary<int, int> _map;
+    private readonly List<int> _list;
+    
     public RandomizedSet()
     {
-        
+        _random = new Random();
+        _map = new Dictionary<int, int>(); 
+        _list = new List<int>();
     }
     
     public bool Insert(int val)
     {
-        return false;
+        if (_map.ContainsKey(val)) return false;
+        
+        _list.Add(val);
+        _map.Add(val, _list.Count - 1);
+        return true;
     }
     
     public bool Remove(int val)
     {
-        return false;
+        if (!_map.Remove(val, out var i)) return false;
+
+        var l = _list.Count - 1;
+
+        if (i != l)
+        {
+            _list[i] = _list[l];
+            _map[_list[i]] = i;
+        }
+        
+        _list.RemoveAt(l);
+        return true;
     }
     
     public int GetRandom()
     {
-        return 0;
+        return _list[_random.Next(_list.Count)];
     }
 }
-
-/*
- * Your RandomizedSet object will be instantiated and called as such:
- * RandomizedSet obj = new RandomizedSet();
- * bool param_1 = obj.Insert(val);
- * bool param_2 = obj.Remove(val);
- * int param_3 = obj.GetRandom();
- */
