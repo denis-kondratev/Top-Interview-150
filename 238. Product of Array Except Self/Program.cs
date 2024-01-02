@@ -33,6 +33,39 @@ public class Solution
 {
     public int[] ProductExceptSelf(int[] nums)
     {
-        return null!;
+        var zeroCount = 0;
+        var zeroIndex = 0;
+        var product = 1;
+
+        for (var i = 0; i < nums.Length; i++)
+        {
+            if (nums[i] != 0)
+            {
+                product *= nums[i];
+                continue;
+            }
+
+            zeroCount++;
+            zeroIndex = i;
+
+            if (zeroCount > 1) break;
+        }
+
+        if (zeroCount > 0)
+        {
+            Array.Fill(nums, 0);
+
+            if (zeroCount > 1) return nums;
+            
+            nums[zeroIndex] = product;
+            return nums;
+        }
+        
+        for (var i = 0; i < nums.Length; i++)
+        {
+            nums[i] = product / nums[i];
+        }
+        
+        return nums;
     }
 }
