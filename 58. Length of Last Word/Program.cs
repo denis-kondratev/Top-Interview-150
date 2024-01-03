@@ -32,6 +32,14 @@ public class Solution
 {
     public int LengthOfLastWord(string s)
     {
-        return 0;
+        var right = s.Length;
+
+        while (--right >= 0 && s[right] == ' ') { }
+
+        var left = right;
+
+        while (--left >= 0 && s[left] != ' ') { }
+        
+        return right - left;
     }
 }
