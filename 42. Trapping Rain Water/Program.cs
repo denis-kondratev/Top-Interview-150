@@ -30,6 +30,26 @@ public class Solution
 {
     public int Trap(int[] heights)
     {
-        return 0;
+        var length = heights.Length;
+        var levels = new int[length];
+        var maxLevel = 0;
+
+        for (var i = 0; i < length; i++)
+        {
+            maxLevel = Math.Max(maxLevel, heights[i]);
+            levels[i] = maxLevel;
+        }
+
+        maxLevel = 0;
+        var result = 0;
+        
+        for (var i = length - 1; i >= 0; i--)
+        {
+            maxLevel = Math.Max(maxLevel, heights[i]);
+            var level = Math.Min(levels[i], maxLevel);
+            result += Math.Max(level - heights[i], 0);
+        }
+        
+        return result;
     }
 }
