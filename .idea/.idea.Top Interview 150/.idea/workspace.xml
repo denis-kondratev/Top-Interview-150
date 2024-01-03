@@ -11,6 +11,7 @@
     <projectFile>27. Remove Element/27. Remove Element.csproj</projectFile>
     <projectFile>274. H-Index/274. H-Index.csproj</projectFile>
     <projectFile>380. Insert Delete GetRandom O1/380. Insert Delete GetRandom O1.csproj</projectFile>
+    <projectFile>42. Trapping Rain Water/42. Trapping Rain Water.csproj</projectFile>
     <projectFile>45. Jump Game II/45. Jump Game II.csproj</projectFile>
     <projectFile>55. Jump Game/55. Jump Game.csproj</projectFile>
     <projectFile>80. Remove Duplicates from Sorted Array II/80. Remove Duplicates from Sorted Array II.csproj</projectFile>
@@ -21,7 +22,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Candy problem" />
+    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Trapping Rain Water problem" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +42,7 @@
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Span.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/SpanHelpers.T.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5abecb93434c4299acd01d522fdf8da2c9a910/bb/ca434730/IArraySortHelper`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/Top Interview 150/42. Trapping Rain Water/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/88. Merge Sorted Array/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -54,31 +56,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.135. Candy.executor": "Debug",
-    ".NET Project.45. Jump Game II.executor": "Debug",
-    ".NET Project.88. Merge Sorted Array.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.protractor.protractor_package": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.135. Candy.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Project.45. Jump Game II.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Project.88. Merge Sorted Array.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.protractor.protractor_package&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\d.kondratev\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\d.kondratev\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\d.kondratev\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\d.kondratev\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\d.kondratev\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\d.kondratev\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.135. Candy">
     <configuration name="121. Best Time to Buy and Sell Stock" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -260,6 +262,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="42. Trapping Rain Water" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/42. Trapping Rain Water/42. Trapping Rain Water.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="45. Jump Game II" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -376,6 +396,7 @@
       <workItem from="1704187799684" duration="1835000" />
       <workItem from="1704231714487" duration="882000" />
       <workItem from="1704281262622" duration="2314000" />
+      <workItem from="1704302247291" duration="1383000" />
     </task>
     <task id="LOCAL-00002" summary="Add a solution to the &quot;26. Remove Duplicates from Sorted Array&quot; problem">
       <option name="closed" value="true" />
@@ -545,7 +566,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704288439928</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add the Trapping Rain Water problem">
+      <option name="closed" value="true" />
+      <created>1704302555584</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1704302555584</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Solve the Trapping Rain Water problem">
+      <option name="closed" value="true" />
+      <created>1704303527018</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1704303527018</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,6 +622,8 @@
     <MESSAGE value="Solve the Product of Array Except Self problem" />
     <MESSAGE value="Add the Candy problem" />
     <MESSAGE value="Solve the Candy problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve the Candy problem" />
+    <MESSAGE value="Add the Trapping Rain Water problem" />
+    <MESSAGE value="Solve the Trapping Rain Water problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve the Trapping Rain Water problem" />
   </component>
 </project>
