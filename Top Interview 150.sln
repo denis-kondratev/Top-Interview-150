@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Roman to Integer", "13.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Integer to Roman", "12. Integer to Roman\12. Integer to Roman.csproj", "{3242EDF6-20B9-4023-A5AD-801C42BB45D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "58. Length of Last Word", "58. Length of Last Word\58. Length of Last Word.csproj", "{F17EBC8F-75DE-4345-A8F6-EE56FAD94B94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +110,9 @@ Global
 		{3242EDF6-20B9-4023-A5AD-801C42BB45D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3242EDF6-20B9-4023-A5AD-801C42BB45D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3242EDF6-20B9-4023-A5AD-801C42BB45D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17EBC8F-75DE-4345-A8F6-EE56FAD94B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17EBC8F-75DE-4345-A8F6-EE56FAD94B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17EBC8F-75DE-4345-A8F6-EE56FAD94B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17EBC8F-75DE-4345-A8F6-EE56FAD94B94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
