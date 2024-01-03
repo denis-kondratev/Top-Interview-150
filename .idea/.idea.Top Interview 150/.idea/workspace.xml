@@ -21,9 +21,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Add the Candy problem">
-      <change beforePath="$PROJECT_DIR$/135. Candy/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/135. Candy/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Candy problem" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,8 +38,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Array.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Math.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Span.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/SpanHelpers.T.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5abecb93434c4299acd01d522fdf8da2c9a910/bb/ca434730/IArraySortHelper`1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Projects/Top Interview 150/238. Product of Array Except Self/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/88. Merge Sorted Array/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -57,6 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.135. Candy.executor": "Debug",
     ".NET Project.45. Jump Game II.executor": "Debug",
     ".NET Project.88. Merge Sorted Array.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -375,7 +375,7 @@
       <workItem from="1704148573905" duration="3424000" />
       <workItem from="1704187799684" duration="1835000" />
       <workItem from="1704231714487" duration="882000" />
-      <workItem from="1704281262622" duration="1758000" />
+      <workItem from="1704281262622" duration="2314000" />
     </task>
     <task id="LOCAL-00002" summary="Add a solution to the &quot;26. Remove Duplicates from Sorted Array&quot; problem">
       <option name="closed" value="true" />
@@ -537,7 +537,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704281453431</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Solve the Candy problem">
+      <option name="closed" value="true" />
+      <created>1704288439928</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1704288439928</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,25 +584,7 @@
     <MESSAGE value="Add the Product of Array Except Self problem" />
     <MESSAGE value="Solve the Product of Array Except Self problem" />
     <MESSAGE value="Add the Candy problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the Candy problem" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/135. Candy/Program.cs</url>
-          <line>39</line>
-          <properties documentPath="D:\Projects\Top Interview 150\135. Candy\Program.cs" initialLine="39" containingFunctionPresentation="Method 'Candy'">
-            <startOffsets>
-              <option value="1254" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1255" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Solve the Candy problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve the Candy problem" />
   </component>
 </project>
