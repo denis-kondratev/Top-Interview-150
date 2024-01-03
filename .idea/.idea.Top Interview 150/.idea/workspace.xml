@@ -5,6 +5,7 @@
     <projectFile>122. Best Time to Buy and Sell Stock II/122. Best Time to Buy and Sell Stock II.csproj</projectFile>
     <projectFile>169. Majority Element/169. Majority Element.csproj</projectFile>
     <projectFile>189. Rotate Array/189. Rotate Array.csproj</projectFile>
+    <projectFile>238. Product of Array Except Self/238. Product of Array Except Self.csproj</projectFile>
     <projectFile>26. Remove Duplicates from Sorted Array/26. Remove Duplicates from Sorted Array.csproj</projectFile>
     <projectFile>27. Remove Element/27. Remove Element.csproj</projectFile>
     <projectFile>274. H-Index/274. H-Index.csproj</projectFile>
@@ -19,9 +20,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Insert Delete GetRandom O(1) problem">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Product of Array Except Self problem" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +38,7 @@
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Array.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5abecb93434c4299acd01d522fdf8da2c9a910/bb/ca434730/IArraySortHelper`1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Projects/Top Interview 150/380. Insert Delete GetRandom O1/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/Top Interview 150/238. Product of Array Except Self/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/88. Merge Sorted Array/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -354,6 +353,7 @@
       <workItem from="1704118854880" duration="6747000" />
       <workItem from="1704148573905" duration="3424000" />
       <workItem from="1704187799684" duration="1835000" />
+      <workItem from="1704231714487" duration="882000" />
     </task>
     <task id="LOCAL-00002" summary="Add a solution to the &quot;26. Remove Duplicates from Sorted Array&quot; problem">
       <option name="closed" value="true" />
@@ -491,7 +491,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704189616501</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add the Product of Array Except Self problem">
+      <option name="closed" value="true" />
+      <created>1704231862232</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1704231862232</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Solve the Product of Array Except Self problem">
+      <option name="closed" value="true" />
+      <created>1704232578461</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1704232578461</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,6 +543,8 @@
     <MESSAGE value="Solve the H-Index problem" />
     <MESSAGE value="Add the Insert Delete GetRandom O(1) problem" />
     <MESSAGE value="Solve the Insert Delete GetRandom O(1) problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve the Insert Delete GetRandom O(1) problem" />
+    <MESSAGE value="Add the Product of Array Except Self problem" />
+    <MESSAGE value="Solve the Product of Array Except Self problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve the Product of Array Except Self problem" />
   </component>
 </project>

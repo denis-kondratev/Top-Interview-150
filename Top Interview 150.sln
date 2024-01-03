@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "380. Insert Delete GetRando
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "238. Product of Array Except Self", "238. Product of Array Except Self\238. Product of Array Except Self.csproj", "{D5081FC9-254C-408D-BC8B-99B8192C95F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "135. Candy", "135. Candy\135. Candy.csproj", "{F7E1AE9E-7BBD-449F-84CB-A90A891DE434}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{D5081FC9-254C-408D-BC8B-99B8192C95F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5081FC9-254C-408D-BC8B-99B8192C95F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5081FC9-254C-408D-BC8B-99B8192C95F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E1AE9E-7BBD-449F-84CB-A90A891DE434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E1AE9E-7BBD-449F-84CB-A90A891DE434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E1AE9E-7BBD-449F-84CB-A90A891DE434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E1AE9E-7BBD-449F-84CB-A90A891DE434}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
