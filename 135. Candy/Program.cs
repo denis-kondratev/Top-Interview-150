@@ -26,17 +26,38 @@
  * Constraints:
  *
  *   n == ratings.length
- *   1 <= n <= 2 * 104
- *   0 <= ratings[i] <= 2 * 104
+ *   1 <= n <= 2 * 10^4
+ *   0 <= ratings[i] <= 2 * 10^4
  */
 
-
-Console.WriteLine("Hello, World!");
+int[] ratings = [1, 3, 4, 5, 2];
+var solution = new Solution();
+Console.WriteLine(solution.Candy(ratings));
 
 public class Solution 
 {
     public int Candy(int[] ratings)
     {
-        return 0;
+        var candies = new int[ratings.Length];
+        candies[0] = 1;
+
+        for (int l = 0, r = 1; r < ratings.Length; l++, r++)
+        {
+            candies[r] = ratings[r] > ratings[l] ? candies[l] + 1 : 1;
+        }
+
+        var totalCandyCount = candies[^1];
+        
+        for (int r = ratings.Length - 1, l = r - 1; l >= 0; r--, l--)
+        {
+            if (ratings[l] > ratings[r] && candies[l] <= candies[r])
+            {
+                candies[l] = candies[r] + 1;
+            }
+            
+            totalCandyCount += candies[l];
+        }
+
+        return totalCandyCount;
     }
 }
