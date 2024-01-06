@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Longest Common Prefix",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "151. Reverse Words in a String", "151. Reverse Words in a String\151. Reverse Words in a String.csproj", "{EC4389C0-03A8-4BCD-B546-A84018BCB39A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Zigzag Conversion", "6. Zigzag Conversion\6. Zigzag Conversion.csproj", "{64FFEB08-2DF4-439E-8E16-37621E1A1EFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,5 +128,9 @@ Global
 		{EC4389C0-03A8-4BCD-B546-A84018BCB39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC4389C0-03A8-4BCD-B546-A84018BCB39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC4389C0-03A8-4BCD-B546-A84018BCB39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FFEB08-2DF4-439E-8E16-37621E1A1EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FFEB08-2DF4-439E-8E16-37621E1A1EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FFEB08-2DF4-439E-8E16-37621E1A1EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FFEB08-2DF4-439E-8E16-37621E1A1EFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
