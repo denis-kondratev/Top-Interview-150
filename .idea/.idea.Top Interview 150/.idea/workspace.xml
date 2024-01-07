@@ -21,6 +21,7 @@
     <projectFile>55. Jump Game/55. Jump Game.csproj</projectFile>
     <projectFile>58. Length of Last Word/58. Length of Last Word.csproj</projectFile>
     <projectFile>6. Zigzag Conversion/6. Zigzag Conversion.csproj</projectFile>
+    <projectFile>68. Text Justification/68. Text Justification.csproj</projectFile>
     <projectFile>80. Remove Duplicates from Sorted Array II/80. Remove Duplicates from Sorted Array II.csproj</projectFile>
     <projectFile>88. Merge Sorted Array/88. Merge Sorted Array.csproj</projectFile>
     <projectFile>Jump Game II/Jump Game II.csproj</projectFile>
@@ -29,7 +30,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Zigzag Conversion problem">
+    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Find the Index of the First Occurrence in a String problem">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Top Interview 150.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Top Interview 150.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +80,7 @@
     ".NET Project.28. Find the Index of the First Occurrence in a String.executor": "Debug",
     ".NET Project.45. Jump Game II.executor": "Debug",
     ".NET Project.6. Zigzag Conversion.executor": "Run",
+    ".NET Project.68. Text Justification.executor": "Run",
     ".NET Project.88. Merge Sorted Array.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -99,7 +102,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.28. Find the Index of the First Occurrence in a String">
+  <component name="RunManager" selected=".NET Project.68. Text Justification">
     <configuration name="121. Best Time to Buy and Sell Stock" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -442,6 +445,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="68. Text Justification" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/68. Text Justification/68. Text Justification.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="6. Zigzag Conversion" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -545,7 +566,7 @@
       <workItem from="1704395720781" duration="1441000" />
       <workItem from="1704458935534" duration="510000" />
       <workItem from="1704491895784" duration="642000" />
-      <workItem from="1704579937364" duration="2180000" />
+      <workItem from="1704579937364" duration="7647000" />
     </task>
     <task id="LOCAL-00002" summary="Add a solution to the &quot;26. Remove Duplicates from Sorted Array&quot; problem">
       <option name="closed" value="true" />
@@ -795,7 +816,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704581570223</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Solve the Find the Index of the First Occurrence in a String problem">
+      <option name="closed" value="true" />
+      <created>1704582616662</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1704582616662</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -814,7 +843,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Solve the Rotate Array problem" />
     <MESSAGE value="Solve the Best Time to Buy and Sell Stock problem" />
     <MESSAGE value="Solve the Best Time to Buy and Sell Stock II problem" />
     <MESSAGE value="Refactor the Best Time to Buy and Sell Stock II problem" />
@@ -839,7 +867,8 @@
     <MESSAGE value="Solve the Longest Common Prefix problem" />
     <MESSAGE value="Solve the Reverse Words in a String problem" />
     <MESSAGE value="Solve the Zigzag Conversion problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve the Zigzag Conversion problem" />
+    <MESSAGE value="Solve the Find the Index of the First Occurrence in a String problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve the Find the Index of the First Occurrence in a String problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
