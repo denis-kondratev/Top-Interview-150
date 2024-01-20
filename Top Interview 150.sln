@@ -46,6 +46,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28. Find the Index of the F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "68. Text Justification", "68. Text Justification\68. Text Justification.csproj", "{93E0CF89-DFD7-449F-BF28-CE7007E23B99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "125. Valid Palindrome", "125. Valid Palindrome\125. Valid Palindrome.csproj", "{A7D05955-F67E-4EE2-BE4B-6E33D408ECD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -144,5 +146,9 @@ Global
 		{93E0CF89-DFD7-449F-BF28-CE7007E23B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93E0CF89-DFD7-449F-BF28-CE7007E23B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93E0CF89-DFD7-449F-BF28-CE7007E23B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7D05955-F67E-4EE2-BE4B-6E33D408ECD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D05955-F67E-4EE2-BE4B-6E33D408ECD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D05955-F67E-4EE2-BE4B-6E33D408ECD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D05955-F67E-4EE2-BE4B-6E33D408ECD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
