@@ -17,6 +17,7 @@
     <projectFile>274. H-Index/274. H-Index.csproj</projectFile>
     <projectFile>28. Find the Index of the First Occurrence in a String/28. Find the Index of the First Occurrence in a String.csproj</projectFile>
     <projectFile>380. Insert Delete GetRandom O1/380. Insert Delete GetRandom O1.csproj</projectFile>
+    <projectFile>392. Is Subsequence/392. Is Subsequence.csproj</projectFile>
     <projectFile>42. Trapping Rain Water/42. Trapping Rain Water.csproj</projectFile>
     <projectFile>45. Jump Game II/45. Jump Game II.csproj</projectFile>
     <projectFile>55. Jump Game/55. Jump Game.csproj</projectFile>
@@ -31,7 +32,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Text Justification problem">
+    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Valid Palindrome problem">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Top Interview 150.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Top Interview 150.sln" afterDir="false" />
     </list>
@@ -79,6 +80,7 @@
     ".NET Project.125. Valid Palindrome.executor": "Debug",
     ".NET Project.135. Candy.executor": "Debug",
     ".NET Project.28. Find the Index of the First Occurrence in a String.executor": "Debug",
+    ".NET Project.392. Is Subsequence.executor": "Run",
     ".NET Project.45. Jump Game II.executor": "Debug",
     ".NET Project.6. Zigzag Conversion.executor": "Run",
     ".NET Project.68. Text Justification.executor": "Debug",
@@ -103,7 +105,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.125. Valid Palindrome">
+  <component name="RunManager" selected=".NET Project.392. Is Subsequence">
     <configuration name="121. Best Time to Buy and Sell Stock" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -392,6 +394,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="392. Is Subsequence" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/392. Is Subsequence/392. Is Subsequence.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="42. Trapping Rain Water" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -536,24 +556,6 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="Jump Game II" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Jump Game II/Jump Game II.csproj" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
-      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -586,7 +588,8 @@
       <workItem from="1704458935534" duration="510000" />
       <workItem from="1704491895784" duration="642000" />
       <workItem from="1704579937364" duration="8473000" />
-      <workItem from="1705778180240" duration="1726000" />
+      <workItem from="1705778180240" duration="2749000" />
+      <workItem from="1705866904114" duration="1616000" />
     </task>
     <task id="LOCAL-00002" summary="Add a solution to the &quot;26. Remove Duplicates from Sorted Array&quot; problem">
       <option name="closed" value="true" />
@@ -852,7 +855,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704587823295</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Solve the Valid Palindrome problem">
+      <option name="closed" value="true" />
+      <created>1705782162447</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1705782162447</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -871,7 +882,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Solve the Best Time to Buy and Sell Stock II problem" />
     <MESSAGE value="Refactor the Best Time to Buy and Sell Stock II problem" />
     <MESSAGE value="Fix constraints in problem descriptions" />
     <MESSAGE value="Solve the Jump Game problem" />
@@ -896,7 +906,8 @@
     <MESSAGE value="Solve the Zigzag Conversion problem" />
     <MESSAGE value="Solve the Find the Index of the First Occurrence in a String problem" />
     <MESSAGE value="Solve the Text Justification problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve the Text Justification problem" />
+    <MESSAGE value="Solve the Valid Palindrome problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve the Valid Palindrome problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -958,10 +969,10 @@
           <line>31</line>
           <properties documentPath="D:\Projects\Top Interview 150\125. Valid Palindrome\Program.cs" initialLine="31" containingFunctionPresentation="">
             <startOffsets>
-              <option value="1088" />
+              <option value="1049" />
             </startOffsets>
             <endOffsets>
-              <option value="1123" />
+              <option value="1084" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="16" />
