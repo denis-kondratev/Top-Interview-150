@@ -52,6 +52,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "392. Is Subsequence", "392.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "167. Two Sum II - Input Array Is Sorted", "167. Two Sum II - Input Array Is Sorted\167. Two Sum II - Input Array Is Sorted.csproj", "{8A830020-3FC4-4838-B9A1-EB126FA2E929}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Container With Most Water", "11. Container With Most Water\11. Container With Most Water.csproj", "{7839FB78-3372-47C8-868D-D3B4F756EC87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,5 +164,9 @@ Global
 		{8A830020-3FC4-4838-B9A1-EB126FA2E929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A830020-3FC4-4838-B9A1-EB126FA2E929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A830020-3FC4-4838-B9A1-EB126FA2E929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7839FB78-3372-47C8-868D-D3B4F756EC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7839FB78-3372-47C8-868D-D3B4F756EC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7839FB78-3372-47C8-868D-D3B4F756EC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7839FB78-3372-47C8-868D-D3B4F756EC87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
