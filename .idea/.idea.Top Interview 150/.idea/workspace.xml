@@ -37,9 +37,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Minimum Size Subarray Sum problem">
+    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Longest Substring Without Repeating Characters problem">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Top Interview 150.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Top Interview 150.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -688,7 +688,7 @@
       <workItem from="1706042711518" duration="941000" />
       <workItem from="1706129704681" duration="2656000" />
       <workItem from="1706216911048" duration="1452000" />
-      <workItem from="1706471792451" duration="2171000" />
+      <workItem from="1706471792451" duration="3620000" />
     </task>
     <task id="LOCAL-00002" summary="Add a solution to the &quot;26. Remove Duplicates from Sorted Array&quot; problem">
       <option name="closed" value="true" />
@@ -1002,7 +1002,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706472640197</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Solve the Longest Substring Without Repeating Characters problem">
+      <option name="closed" value="true" />
+      <created>1706476599222</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1706476599222</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1021,7 +1029,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add the H-Index problem" />
     <MESSAGE value="Solve the H-Index problem" />
     <MESSAGE value="Add the Insert Delete GetRandom O(1) problem" />
     <MESSAGE value="Solve the Insert Delete GetRandom O(1) problem" />
@@ -1046,7 +1053,8 @@
     <MESSAGE value="Solve the Container With Most Water problem" />
     <MESSAGE value="Solve the 3Sum problem" />
     <MESSAGE value="Solve the Minimum Size Subarray Sum problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve the Minimum Size Subarray Sum problem" />
+    <MESSAGE value="Solve the Longest Substring Without Repeating Characters problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve the Longest Substring Without Repeating Characters problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

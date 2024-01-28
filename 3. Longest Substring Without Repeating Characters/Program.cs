@@ -31,24 +31,50 @@ public class Solution
 {
     public int LengthOfLongestSubstring(string s)
     {
-        int left = 0, max = 0;
-        HashSet<char> sequence = new(26);
+        int left = -1, max = 0;
+        var map = new Dictionary<char, int>();
         
         for (var right = 0; right < s.Length; right++)
         {
-            if (!sequence.Add(s[right]))
+            var isRepeated = map.TryGetValue(s[right], out var last) && last >= left;
+            map[s[right]] = right;
+            
+            if (isRepeated)
             {
-                while (s[left] != s[right])
-                {
-                    sequence.Remove(s[left++]);
-                }
-
-                left++;
+                left = last + 1;
             }
-
-            max = Math.Max(max, sequence.Count);
+            else
+            {
+                max = Math.Max(max, right - left);
+            }
         }
         
         return max;
     }
 }
+
+// public class Solution 
+// {
+//     public int LengthOfLongestSubstring(string s)
+//     {
+//         int left = 0, max = 0;
+//         HashSet<char> sequence = new(26);
+//         
+//         for (var right = 0; right < s.Length; right++)
+//         {
+//             if (!sequence.Add(s[right]))
+//             {
+//                 while (s[left] != s[right])
+//                 {
+//                     sequence.Remove(s[left++]);
+//                 }
+//
+//                 left++;
+//             }
+//
+//             max = Math.Max(max, sequence.Count);
+//         }
+//         
+//         return max;
+//     }
+// }
