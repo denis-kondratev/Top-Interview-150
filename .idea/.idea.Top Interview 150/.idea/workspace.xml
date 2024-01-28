@@ -9,10 +9,12 @@
     <projectFile>13. Roman to Integer/13. Roman to Integer.csproj</projectFile>
     <projectFile>135. Candy/135. Candy.csproj</projectFile>
     <projectFile>14. Longest Common Prefix/14. Longest Common Prefix.csproj</projectFile>
+    <projectFile>15. 3Sum/15. 3Sum.csproj</projectFile>
     <projectFile>151. Reverse Words in a String/151. Reverse Words in a String.csproj</projectFile>
     <projectFile>167. Two Sum II - Input Array Is Sorted/167. Two Sum II - Input Array Is Sorted.csproj</projectFile>
     <projectFile>169. Majority Element/169. Majority Element.csproj</projectFile>
     <projectFile>189. Rotate Array/189. Rotate Array.csproj</projectFile>
+    <projectFile>209. Minimum Size Subarray Sum/209. Minimum Size Subarray Sum.csproj</projectFile>
     <projectFile>238. Product of Array Except Self/238. Product of Array Except Self.csproj</projectFile>
     <projectFile>26. Remove Duplicates from Sorted Array/26. Remove Duplicates from Sorted Array.csproj</projectFile>
     <projectFile>27. Remove Element/27. Remove Element.csproj</projectFile>
@@ -34,7 +36,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Container With Most Water problem" />
+    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the 3Sum problem">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Top Interview 150.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Top Interview 150.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,6 +272,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="15. 3Sum" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/15. 3Sum/15. 3Sum.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="167. Two Sum II - Input Array Is Sorted" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -312,6 +335,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/189. Rotate Array/189. Rotate Array.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="209. Minimum Size Subarray Sum" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/209. Minimum Size Subarray Sum/209. Minimum Size Subarray Sum.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -627,6 +668,8 @@
       <workItem from="1705866904114" duration="2481000" />
       <workItem from="1706042711518" duration="941000" />
       <workItem from="1706129704681" duration="2656000" />
+      <workItem from="1706216911048" duration="1452000" />
+      <workItem from="1706471792451" duration="776000" />
     </task>
     <task id="LOCAL-00002" summary="Add a solution to the &quot;26. Remove Duplicates from Sorted Array&quot; problem">
       <option name="closed" value="true" />
@@ -924,7 +967,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706133125360</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Solve the 3Sum problem">
+      <option name="closed" value="true" />
+      <created>1706217770295</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1706217770295</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -943,7 +994,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactor the Jump Game problem" />
     <MESSAGE value="Solve the Jump Game II problem" />
     <MESSAGE value="Add the H-Index problem" />
     <MESSAGE value="Solve the H-Index problem" />
@@ -968,7 +1018,8 @@
     <MESSAGE value="Solve the Is Subsequence problem" />
     <MESSAGE value="Solve the Two Sum II - Input Array Is Sorted problem" />
     <MESSAGE value="Solve the Container With Most Water problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve the Container With Most Water problem" />
+    <MESSAGE value="Solve the 3Sum problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve the 3Sum problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
