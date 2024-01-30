@@ -60,6 +60,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "209. Minimum Size Subarray 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Longest Substring Without Repeating Characters", "3. Longest Substring Without Repeating Characters\3. Longest Substring Without Repeating Characters.csproj", "{FAF98276-0252-47F5-BD29-89947BDD53D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "130. Substring with Concatenation of All Words", "130. Substring with Concatenation of All Words\130. Substring with Concatenation of All Words.csproj", "{ADCECA24-35C7-49E2-9070-0097B43C2500}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -186,5 +188,9 @@ Global
 		{FAF98276-0252-47F5-BD29-89947BDD53D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAF98276-0252-47F5-BD29-89947BDD53D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAF98276-0252-47F5-BD29-89947BDD53D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCECA24-35C7-49E2-9070-0097B43C2500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCECA24-35C7-49E2-9070-0097B43C2500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCECA24-35C7-49E2-9070-0097B43C2500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCECA24-35C7-49E2-9070-0097B43C2500}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
