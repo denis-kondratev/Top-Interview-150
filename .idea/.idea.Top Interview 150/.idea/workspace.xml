@@ -7,6 +7,7 @@
     <projectFile>122. Best Time to Buy and Sell Stock II/122. Best Time to Buy and Sell Stock II.csproj</projectFile>
     <projectFile>125. Valid Palindrome/125. Valid Palindrome.csproj</projectFile>
     <projectFile>13. Roman to Integer/13. Roman to Integer.csproj</projectFile>
+    <projectFile>130. Substring with Concatenation of All Words/130. Substring with Concatenation of All Words.csproj</projectFile>
     <projectFile>135. Candy/135. Candy.csproj</projectFile>
     <projectFile>14. Longest Common Prefix/14. Longest Common Prefix.csproj</projectFile>
     <projectFile>15. 3Sum/15. 3Sum.csproj</projectFile>
@@ -37,7 +38,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Longest Substring Without Repeating Characters problem" />
+    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Add the Substring with Concatenation of All Words problem">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/130. Substring with Concatenation of All Words/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/130. Substring with Concatenation of All Words/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,13 +57,24 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableDictionary_2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Collections.Immutable/src/System/Collections/Immutable/SortedInt32KeyNode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Array.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Char.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Collections/Generic/CollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Collections/Generic/EqualityComparer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/HashCode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Marvin.OrdinalIgnoreCase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Math.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/MemoryExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/ReadOnlySpan.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Span.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/SpanHelpers.T.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/String.Comparison.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5abecb93434c4299acd01d522fdf8da2c9a910/bb/ca434730/IArraySortHelper`1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Projects/Top Interview 150/3. Longest Substring Without Repeating Characters/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/88. Merge Sorted Array/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -76,6 +91,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;.NET Project.125. Valid Palindrome.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Project.130. Substring with Concatenation of All Words.executor&quot;: &quot;Debug&quot;,
     &quot;.NET Project.135. Candy.executor&quot;: &quot;Debug&quot;,
     &quot;.NET Project.28. Find the Index of the First Occurrence in a String.executor&quot;: &quot;Debug&quot;,
     &quot;.NET Project.392. Is Subsequence.executor&quot;: &quot;Run&quot;,
@@ -103,7 +119,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.392. Is Subsequence">
+  <component name="RunManager" selected=".NET Project.130. Substring with Concatenation of All Words">
     <configuration name="11. Container With Most Water" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -700,6 +716,8 @@
       <workItem from="1706129704681" duration="2656000" />
       <workItem from="1706216911048" duration="1452000" />
       <workItem from="1706471792451" duration="4368000" />
+      <workItem from="1706640383050" duration="8202000" />
+      <workItem from="1706700447588" duration="3467000" />
     </task>
     <task id="LOCAL-00002" summary="Add a solution to the &quot;26. Remove Duplicates from Sorted Array&quot; problem">
       <option name="closed" value="true" />
@@ -1029,7 +1047,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706477946213</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Add the Substring with Concatenation of All Words problem">
+      <option name="closed" value="true" />
+      <created>1706640601084</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1706640601085</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1048,7 +1074,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Solve the H-Index problem" />
     <MESSAGE value="Add the Insert Delete GetRandom O(1) problem" />
     <MESSAGE value="Solve the Insert Delete GetRandom O(1) problem" />
     <MESSAGE value="Add the Product of Array Except Self problem" />
@@ -1073,7 +1098,8 @@
     <MESSAGE value="Solve the 3Sum problem" />
     <MESSAGE value="Solve the Minimum Size Subarray Sum problem" />
     <MESSAGE value="Solve the Longest Substring Without Repeating Characters problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve the Longest Substring Without Repeating Characters problem" />
+    <MESSAGE value="Add the Substring with Concatenation of All Words problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the Substring with Concatenation of All Words problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1143,11 +1169,25 @@
           </properties>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/130. Substring with Concatenation of All Words/Program.cs</url>
+          <line>86</line>
+          <properties documentPath="D:\Projects\Top Interview 150\130. Substring with Concatenation of All Words\Program.cs" initialLine="97" containingFunctionPresentation="Method 'FindSubstring'">
+            <startOffsets>
+              <option value="3913" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3927" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="DotNetProject">
         <watch expression="(int)'a'" language="C#" />
+        <watch expression="AsSpan() == other.AsSpan()" language="C#" />
         <watch expression="(int)'z'" language="C#" />
         <watch expression="(int)'A'" language="C#" />
         <watch expression="(int)'Z'" language="C#" />

@@ -1,5 +1,5 @@
 ﻿/*
- * 30. Substring with Concatenation of All Words
+ * 130. Substring with Concatenation of All Words
  * https://leetcode.com/problems/substring-with-concatenation-of-all-words/?envType=study-plan-v2&envId=top-interview-150
  *
  * You are given a string s and an array of strings words. All the strings of words are of the same length.
@@ -42,12 +42,142 @@
  *   s and words[i] consist of lowercase English letters.
  */
 
-Console.WriteLine("Hello, World!");
+string[] words = ["aa"];
+var s = "aaaa";
+var solution = new Solution();
+Console.WriteLine(solution.FindSubstring(s, words));
 
 public class Solution 
 {
     public IList<int> FindSubstring(string s, string[] words)
     {
-        return Array.Empty<int>();
+        int wordCount = words.Length, wordLength = words[0].Length, lastIndex = s.Length - wordLength + 1;
+        var map = CreateWordMap(words);
+        var positions = new Positions();
+        var result = new List<int>();
+        
+        for (var i = 0; i < wordLength; i++)
+        {
+            positions.Clear(i - wordLength);
+            int left = -wordLength;
+
+            for (var right = i; right < lastIndex; right += wordLength)
+            {
+                if (!map.TryGetValue(s.AsSubString(right, wordLength), out var value))
+                {
+                    left = right + wordLength;
+                    continue;
+                }
+
+                var last = positions.RollPosition(value.word, value.count, right);
+
+                if (last >= left)
+                {
+                    left = last + wordLength;
+                }
+            
+                if ((right - left) / wordLength + 1 == wordCount)
+                {
+                    result.Add(left);
+                    left += wordLength;
+                }
+            }
+        }
+        
+        return result;
+    }
+
+    private static Dictionary<SubString, (string word, int count)> CreateWordMap(string[] words)
+    {
+        var map = new Dictionary<SubString, (string word, int count)>();
+        
+        foreach (var word in words)
+        {
+            var sub = word.AsSubString();
+            
+            if (map.TryGetValue(word.AsSubString(), out var value))
+            {
+                value.count += 1;
+                map[sub] = value;
+            }
+            else
+            {
+                map.Add(sub, (word, 1));
+            }
+        }
+
+        return map;
+    }
+}
+
+public static class SubStringExtensions
+{
+    public static SubString AsSubString(this string source, int firstIndex, int length)
+    {
+        return new SubString(source, firstIndex, length);
+    }
+    
+    public static SubString AsSubString(this string source)
+    {
+        return new SubString(source, 0, source.Length);
+    }
+}
+
+public class Positions
+{
+    private readonly Dictionary<string, int> _single = new();
+    private readonly Dictionary<string, Queue<int>> _multiple = new();
+    private int _defaultValue;
+
+    public int RollPosition(string word, int count, int position)
+    {
+        if (count == 1)
+        {
+            var last = _single.GetValueOrDefault(word, _defaultValue);
+            _single[word] = position;
+            return last;
+        }
+
+        if (!_multiple.TryGetValue(word, out var queue))
+        {
+            queue = new Queue<int>();
+            _multiple.Add(word, queue);
+        }
+
+        queue.Enqueue(position);
+        return queue.Count > count ? queue.Dequeue() : _defaultValue;
+    }
+
+    public void Clear(int defaultValue)
+    {
+        _defaultValue = defaultValue;
+        _single.Clear();
+        
+        foreach (var queue in _multiple.Values)
+        {
+            queue.Clear();
+        }
+    }
+}
+
+public struct SubString(string source, int startIndex, int length) : IEquatable<SubString>
+{
+    public bool Equals(SubString other) => AsSpan().SequenceEqual(other.AsSpan());
+
+    public override bool Equals(object? obj) => obj is SubString other && Equals(other);
+
+    public ReadOnlySpan<char> AsSpan() => source.AsSpan(startIndex, length);
+
+    public override int GetHashCode()
+    {
+        var hash = source[startIndex].GetHashCode();
+        var lastIndex = startIndex + length;
+
+        for (var i = startIndex + 1; i < lastIndex ; i++)
+        {
+            hash ^= source[i].GetHashCode();
+        }
+
+        return hash;
     }
 }
