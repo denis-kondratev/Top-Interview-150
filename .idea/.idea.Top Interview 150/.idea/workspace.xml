@@ -38,9 +38,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Add the Substring with Concatenation of All Words problem">
+    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Substring with Concatenation of All Words problem">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/130. Substring with Concatenation of All Words/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/130. Substring with Concatenation of All Words/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1168,19 +1167,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/130. Substring with Concatenation of All Words/Program.cs</url>
-          <line>86</line>
-          <properties documentPath="D:\Projects\Top Interview 150\130. Substring with Concatenation of All Words\Program.cs" initialLine="97" containingFunctionPresentation="Method 'FindSubstring'">
-            <startOffsets>
-              <option value="3913" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3927" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
