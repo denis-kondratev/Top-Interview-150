@@ -35,8 +35,41 @@ Console.WriteLine("Hello, World!");
 
 public class Solution 
 {
-    public string MinWindow(string s, string t)
+    public string MinWindow(string s, string t) 
     {
-        return string.Empty;
+        var map = new int[128];
+
+        foreach (var c in t)
+        {
+            map[c]++;
+        }
+        
+        int left = 0, right = 0, counter = t.Length;
+        var min = (left: -1, length: int.MaxValue);
+
+        while (right < s.Length)
+        {
+            if (map[s[right]] > 0)
+            {
+                counter--;
+            }
+
+            --map[s[right++]];
+
+            while (counter == 0)
+            {
+                if (min.length > right - left)
+                {
+                    min = (left, right - left);
+                }
+                
+                if (++map[s[left++]] > 0)
+                {
+                    counter++;
+                }
+            }
+        }
+        
+        return min.left >= 0 ? s.Substring(min.left, min.length) : "";
     }
 }
