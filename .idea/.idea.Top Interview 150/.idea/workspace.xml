@@ -39,7 +39,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Substring with Concatenation of All Words problem">
+    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Minimum Window Substring problem">
       <change beforePath="$PROJECT_DIR$/76. Minimum Window Substring/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/76. Minimum Window Substring/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,9 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableDictionary_2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Collections.Immutable/src/System/Collections/Immutable/SortedInt32KeyNode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Array.cs" root0="SKIP_HIGHLIGHTING" />
@@ -736,7 +739,7 @@
       <workItem from="1706471792451" duration="4368000" />
       <workItem from="1706640383050" duration="8202000" />
       <workItem from="1706700447588" duration="3467000" />
-      <workItem from="1706793668970" duration="963000" />
+      <workItem from="1706793668970" duration="4061000" />
     </task>
     <task id="LOCAL-00002" summary="Add a solution to the &quot;26. Remove Duplicates from Sorted Array&quot; problem">
       <option name="closed" value="true" />
@@ -1074,7 +1077,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706640601085</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Solve the Minimum Window Substring problem">
+      <option name="closed" value="true" />
+      <created>1706803256766</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1706803256766</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1093,9 +1104,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add the Insert Delete GetRandom O(1) problem" />
-    <MESSAGE value="Solve the Insert Delete GetRandom O(1) problem" />
-    <MESSAGE value="Add the Product of Array Except Self problem" />
     <MESSAGE value="Solve the Product of Array Except Self problem" />
     <MESSAGE value="Add the Candy problem" />
     <MESSAGE value="Solve the Candy problem" />
@@ -1118,7 +1126,10 @@
     <MESSAGE value="Solve the Minimum Size Subarray Sum problem" />
     <MESSAGE value="Solve the Longest Substring Without Repeating Characters problem" />
     <MESSAGE value="Add the Substring with Concatenation of All Words problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the Substring with Concatenation of All Words problem" />
+    <MESSAGE value="Add the Minimum Window Substring problem" />
+    <MESSAGE value="Solve the Substring with Concatenation of All Words problem" />
+    <MESSAGE value="Solve the Minimum Window Substring problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve the Minimum Window Substring problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1190,22 +1201,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/76. Minimum Window Substring/Program.cs</url>
-          <line>38</line>
-          <properties documentPath="D:\Projects\Top Interview 150\76. Minimum Window Substring\Program.cs" initialLine="38" containingFunctionPresentation="Method 'MinWindow'">
+          <line>33</line>
+          <properties documentPath="D:\Projects\Top Interview 150\76. Minimum Window Substring\Program.cs" initialLine="33" containingFunctionPresentation="">
             <startOffsets>
-              <option value="1297" />
+              <option value="1183" />
             </startOffsets>
             <endOffsets>
-              <option value="1298" />
+              <option value="1218" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="DotNetProject">
         <watch expression="(int)'a'" language="C#" />
+        <watch expression="(int)'A'" language="C#" />
+        <watch expression="'z' - 'A' + 1" language="C#" />
         <watch expression="AsSpan() == other.AsSpan()" language="C#" />
         <watch expression="(int)'z'" language="C#" />
         <watch expression="(int)'A'" language="C#" />
