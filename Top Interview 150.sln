@@ -66,6 +66,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "76. Minimum Window Substrin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36. Valid Sudoku", "36. Valid Sudoku\36. Valid Sudoku.csproj", "{56E0EA15-1F55-4915-B34C-DA722841EB70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "54. Spiral Matrix", "54. Spiral Matrix\54. Spiral Matrix.csproj", "{8DC05B41-C26D-4619-8A71-A46ECA77513A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -204,5 +206,9 @@ Global
 		{56E0EA15-1F55-4915-B34C-DA722841EB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56E0EA15-1F55-4915-B34C-DA722841EB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56E0EA15-1F55-4915-B34C-DA722841EB70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC05B41-C26D-4619-8A71-A46ECA77513A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC05B41-C26D-4619-8A71-A46ECA77513A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC05B41-C26D-4619-8A71-A46ECA77513A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC05B41-C26D-4619-8A71-A46ECA77513A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -22,10 +22,12 @@
     <projectFile>274. H-Index/274. H-Index.csproj</projectFile>
     <projectFile>28. Find the Index of the First Occurrence in a String/28. Find the Index of the First Occurrence in a String.csproj</projectFile>
     <projectFile>3. Longest Substring Without Repeating Characters/3. Longest Substring Without Repeating Characters.csproj</projectFile>
+    <projectFile>36. Valid Sudoku/36. Valid Sudoku.csproj</projectFile>
     <projectFile>380. Insert Delete GetRandom O1/380. Insert Delete GetRandom O1.csproj</projectFile>
     <projectFile>392. Is Subsequence/392. Is Subsequence.csproj</projectFile>
     <projectFile>42. Trapping Rain Water/42. Trapping Rain Water.csproj</projectFile>
     <projectFile>45. Jump Game II/45. Jump Game II.csproj</projectFile>
+    <projectFile>54. Spiral Matrix/54. Spiral Matrix.csproj</projectFile>
     <projectFile>55. Jump Game/55. Jump Game.csproj</projectFile>
     <projectFile>58. Length of Last Word/58. Length of Last Word.csproj</projectFile>
     <projectFile>6. Zigzag Conversion/6. Zigzag Conversion.csproj</projectFile>
@@ -39,8 +41,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Minimum Window Substring problem">
-      <change beforePath="$PROJECT_DIR$/76. Minimum Window Substring/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/76. Minimum Window Substring/Program.cs" afterDir="false" />
+    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Valid Sudoku problem">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Top Interview 150.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Top Interview 150.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +60,6 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableDictionary_2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Collections.Immutable/src/System/Collections/Immutable/SortedInt32KeyNode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Private.CoreLib/src/System/Array.cs" root0="SKIP_HIGHLIGHTING" />
@@ -98,6 +98,7 @@
     ".NET Project.28. Find the Index of the First Occurrence in a String.executor": "Debug",
     ".NET Project.392. Is Subsequence.executor": "Run",
     ".NET Project.45. Jump Game II.executor": "Debug",
+    ".NET Project.54. Spiral Matrix.executor": "Debug",
     ".NET Project.6. Zigzag Conversion.executor": "Run",
     ".NET Project.68. Text Justification.executor": "Debug",
     ".NET Project.76. Minimum Window Substring.executor": "Debug",
@@ -122,7 +123,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.76. Minimum Window Substring">
+  <component name="RunManager" selected=".NET Project.54. Spiral Matrix">
     <configuration name="11. Container With Most Water" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -483,6 +484,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="36. Valid Sudoku" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/36. Valid Sudoku/36. Valid Sudoku.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="380. Insert Delete GetRandom O1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -564,6 +583,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/45. Jump Game II/45. Jump Game II.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="54. Spiral Matrix" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/54. Spiral Matrix/54. Spiral Matrix.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -740,6 +777,8 @@
       <workItem from="1706640383050" duration="8202000" />
       <workItem from="1706700447588" duration="3467000" />
       <workItem from="1706793668970" duration="4061000" />
+      <workItem from="1706886982752" duration="1097000" />
+      <workItem from="1706951304663" duration="1526000" />
     </task>
     <task id="LOCAL-00002" summary="Add a solution to the &quot;26. Remove Duplicates from Sorted Array&quot; problem">
       <option name="closed" value="true" />
@@ -1085,7 +1124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706803256766</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Solve the Valid Sudoku problem">
+      <option name="closed" value="true" />
+      <created>1706888068443</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1706888068443</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1104,7 +1151,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Solve the Product of Array Except Self problem" />
     <MESSAGE value="Add the Candy problem" />
     <MESSAGE value="Solve the Candy problem" />
     <MESSAGE value="Add the Trapping Rain Water problem" />
@@ -1129,7 +1175,8 @@
     <MESSAGE value="Add the Minimum Window Substring problem" />
     <MESSAGE value="Solve the Substring with Concatenation of All Words problem" />
     <MESSAGE value="Solve the Minimum Window Substring problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve the Minimum Window Substring problem" />
+    <MESSAGE value="Solve the Valid Sudoku problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve the Valid Sudoku problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1211,6 +1258,58 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/54. Spiral Matrix/Program.cs</url>
+          <line>28</line>
+          <properties documentPath="D:\Projects\Top Interview 150\54. Spiral Matrix\Program.cs" initialLine="28" containingFunctionPresentation="Method 'SpiralOrder'">
+            <startOffsets>
+              <option value="751" />
+            </startOffsets>
+            <endOffsets>
+              <option value="752" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/54. Spiral Matrix/Program.cs</url>
+          <line>43</line>
+          <properties documentPath="D:\Projects\Top Interview 150\54. Spiral Matrix\Program.cs" initialLine="43" containingFunctionPresentation="Method 'SpiralOrder'">
+            <startOffsets>
+              <option value="1153" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1159" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/54. Spiral Matrix/Program.cs</url>
+          <line>50</line>
+          <properties documentPath="D:\Projects\Top Interview 150\54. Spiral Matrix\Program.cs" initialLine="50" containingFunctionPresentation="Method 'SpiralOrder'">
+            <startOffsets>
+              <option value="1302" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1310" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/54. Spiral Matrix/Program.cs</url>
+          <line>57</line>
+          <properties documentPath="D:\Projects\Top Interview 150\54. Spiral Matrix\Program.cs" initialLine="57" containingFunctionPresentation="Method 'SpiralOrder'">
+            <startOffsets>
+              <option value="1454" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1463" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
