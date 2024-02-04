@@ -32,6 +32,7 @@
     <projectFile>58. Length of Last Word/58. Length of Last Word.csproj</projectFile>
     <projectFile>6. Zigzag Conversion/6. Zigzag Conversion.csproj</projectFile>
     <projectFile>68. Text Justification/68. Text Justification.csproj</projectFile>
+    <projectFile>73. Set Matrix Zeroes/73. Set Matrix Zeroes.csproj</projectFile>
     <projectFile>76. Minimum Window Substring/76. Minimum Window Substring.csproj</projectFile>
     <projectFile>80. Remove Duplicates from Sorted Array II/80. Remove Duplicates from Sorted Array II.csproj</projectFile>
     <projectFile>88. Merge Sorted Array/88. Merge Sorted Array.csproj</projectFile>
@@ -101,6 +102,7 @@
     ".NET Project.54. Spiral Matrix.executor": "Debug",
     ".NET Project.6. Zigzag Conversion.executor": "Run",
     ".NET Project.68. Text Justification.executor": "Debug",
+    ".NET Project.73. Set Matrix Zeroes.executor": "Debug",
     ".NET Project.76. Minimum Window Substring.executor": "Debug",
     ".NET Project.88. Merge Sorted Array.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -123,7 +125,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.54. Spiral Matrix">
+  <component name="RunManager" selected=".NET Project.73. Set Matrix Zeroes">
     <configuration name="11. Container With Most Water" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -682,6 +684,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="73. Set Matrix Zeroes" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/73. Set Matrix Zeroes/73. Set Matrix Zeroes.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="76. Minimum Window Substring" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -779,6 +799,7 @@
       <workItem from="1706793668970" duration="4061000" />
       <workItem from="1706886982752" duration="1097000" />
       <workItem from="1706951304663" duration="1526000" />
+      <workItem from="1707077208216" duration="2008000" />
     </task>
     <task id="LOCAL-00002" summary="Add a solution to the &quot;26. Remove Duplicates from Sorted Array&quot; problem">
       <option name="closed" value="true" />
@@ -1260,56 +1281,17 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/54. Spiral Matrix/Program.cs</url>
-          <line>28</line>
-          <properties documentPath="D:\Projects\Top Interview 150\54. Spiral Matrix\Program.cs" initialLine="28" containingFunctionPresentation="Method 'SpiralOrder'">
+          <url>file://$PROJECT_DIR$/73. Set Matrix Zeroes/Program.cs</url>
+          <line>35</line>
+          <properties documentPath="D:\Projects\Top Interview 150\73. Set Matrix Zeroes\Program.cs" initialLine="35" containingFunctionPresentation="Method 'SetZeroes'">
             <startOffsets>
-              <option value="751" />
+              <option value="1047" />
             </startOffsets>
             <endOffsets>
-              <option value="752" />
+              <option value="1048" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/54. Spiral Matrix/Program.cs</url>
-          <line>43</line>
-          <properties documentPath="D:\Projects\Top Interview 150\54. Spiral Matrix\Program.cs" initialLine="43" containingFunctionPresentation="Method 'SpiralOrder'">
-            <startOffsets>
-              <option value="1153" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1159" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/54. Spiral Matrix/Program.cs</url>
-          <line>50</line>
-          <properties documentPath="D:\Projects\Top Interview 150\54. Spiral Matrix\Program.cs" initialLine="50" containingFunctionPresentation="Method 'SpiralOrder'">
-            <startOffsets>
-              <option value="1302" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1310" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/54. Spiral Matrix/Program.cs</url>
-          <line>57</line>
-          <properties documentPath="D:\Projects\Top Interview 150\54. Spiral Matrix\Program.cs" initialLine="57" containingFunctionPresentation="Method 'SpiralOrder'">
-            <startOffsets>
-              <option value="1454" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1463" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

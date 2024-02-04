@@ -68,6 +68,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36. Valid Sudoku", "36. Val
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "54. Spiral Matrix", "54. Spiral Matrix\54. Spiral Matrix.csproj", "{8DC05B41-C26D-4619-8A71-A46ECA77513A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "73. Set Matrix Zeroes", "73. Set Matrix Zeroes\73. Set Matrix Zeroes.csproj", "{4B27B962-6499-4301-B525-C9A73D81FADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -210,5 +212,9 @@ Global
 		{8DC05B41-C26D-4619-8A71-A46ECA77513A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DC05B41-C26D-4619-8A71-A46ECA77513A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DC05B41-C26D-4619-8A71-A46ECA77513A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B27B962-6499-4301-B525-C9A73D81FADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B27B962-6499-4301-B525-C9A73D81FADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B27B962-6499-4301-B525-C9A73D81FADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B27B962-6499-4301-B525-C9A73D81FADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
