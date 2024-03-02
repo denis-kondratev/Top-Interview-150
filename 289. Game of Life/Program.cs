@@ -41,12 +41,65 @@
  *     (i.e., live cells reach the border). How would you address these problems?
  */
 
+using System.Diagnostics;
+
+var solution = new Solution();
+int[][] board = [[1, 1], [1, 0]];
+solution.GameOfLife(board);
 Console.WriteLine("Hello, World!");
 
 public class Solution
 {
     public void GameOfLife(int[][] board)
     {
+        int m = board.Length - 1, n = board[0].Length - 1;
         
+        for (var i = 0; i <= m; i++)
+        {
+            for (var j = 0; j <= n; j++)
+            {
+                board[i][j] += CountNeighbor(i, j) << 1;
+            }
+        }
+        
+        for (var i = 0; i <= m; i++)
+        {
+            for (var j = 0; j <= n; j++)
+            {
+                var count = board[i][j] >> 1;
+                board[i][j] = (board[i][j] & 1) switch
+                {
+                    0 => count is 3 ? 1 : 0,
+                    1 => count is > 1 and < 4 ? 1 : 0,
+                    _ => throw new ArgumentOutOfRangeException()
+                };
+            }
+        }
+        
+        int CountNeighbor(int y, int x)
+        {
+            var count = 0;
+
+            if (y > 0) count += CountLineNeighbor(board[y - 1], x, true);
+            
+            count += CountLineNeighbor(board[y], x, false);
+
+            if (y < m) count += CountLineNeighbor(board[y + 1], x, true);
+            
+            return count;
+        }
+
+        int CountLineNeighbor(int[] line, int p, bool countCentral)
+        {
+            var count = 0;
+            
+            if (p > 0) count += line[p - 1] & 1;
+            
+            if (countCentral) count += line[p] & 1;
+
+            if (p < n) count += line[p + 1] & 1;
+
+            return count;
+        }
     }
 }

@@ -43,9 +43,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Solve the Valid Sudoku problem">
+    <list default="true" id="731cfd8c-38b3-42da-b570-d5d7ddf8b2ff" name="Changes" comment="Add the 289. Game of Life problem">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Top Interview 150/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Top Interview 150.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Top Interview 150.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/289. Game of Life/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/289. Game of Life/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +110,7 @@
     ".NET Project.130. Substring with Concatenation of All Words.executor": "Debug",
     ".NET Project.135. Candy.executor": "Debug",
     ".NET Project.28. Find the Index of the First Occurrence in a String.executor": "Debug",
+    ".NET Project.289. Game of Life.executor": "Debug",
     ".NET Project.392. Is Subsequence.executor": "Run",
     ".NET Project.45. Jump Game II.executor": "Debug",
     ".NET Project.54. Spiral Matrix.executor": "Debug",
@@ -122,8 +123,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.protractor.protractor_package": "",
     "nodejs_package_manager_path": "npm",
@@ -138,7 +141,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.73. Set Matrix Zeroes">
+  <component name="RunManager" selected=".NET Project.289. Game of Life">
     <configuration name="11. Container With Most Water" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -831,7 +834,7 @@
       <workItem from="1706886982752" duration="1097000" />
       <workItem from="1706951304663" duration="1526000" />
       <workItem from="1707077208216" duration="2008000" />
-      <workItem from="1709372539338" duration="663000" />
+      <workItem from="1709372539338" duration="5359000" />
     </task>
     <task id="LOCAL-00002" summary="Add a solution to the &quot;26. Remove Duplicates from Sorted Array&quot; problem">
       <option name="closed" value="true" />
@@ -1185,7 +1188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706888068443</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Add the 289. Game of Life problem">
+      <option name="closed" value="true" />
+      <created>1709374326115</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1709374326115</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1206,7 +1217,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Add the Candy problem" />
     <MESSAGE value="Solve the Candy problem" />
     <MESSAGE value="Add the Trapping Rain Water problem" />
     <MESSAGE value="Solve the Trapping Rain Water problem" />
@@ -1231,7 +1241,8 @@
     <MESSAGE value="Solve the Substring with Concatenation of All Words problem" />
     <MESSAGE value="Solve the Minimum Window Substring problem" />
     <MESSAGE value="Solve the Valid Sudoku problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve the Valid Sudoku problem" />
+    <MESSAGE value="Add the 289. Game of Life problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the 289. Game of Life problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1277,6 +1288,19 @@
           <line>35</line>
           <properties documentPath="D:\Projects\Top Interview 150\73. Set Matrix Zeroes\Program.cs" containingFunctionPresentation="Method 'SetZeroes'" />
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/289. Game of Life/Program.cs</url>
+          <line>53</line>
+          <properties documentPath="$PROJECT_DIR$/289. Game of Life/Program.cs" containingFunctionPresentation="Method 'GameOfLife'">
+            <startOffsets>
+              <option value="2261" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2262" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
