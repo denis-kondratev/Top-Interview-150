@@ -21,6 +21,7 @@
     <projectFile>27. Remove Element/27. Remove Element.csproj</projectFile>
     <projectFile>274. H-Index/274. H-Index.csproj</projectFile>
     <projectFile>28. Find the Index of the First Occurrence in a String/28. Find the Index of the First Occurrence in a String.csproj</projectFile>
+    <projectFile>289. Game of Life/289. Game of Life.csproj</projectFile>
     <projectFile>3. Longest Substring Without Repeating Characters/3. Longest Substring Without Repeating Characters.csproj</projectFile>
     <projectFile>36. Valid Sudoku/36. Valid Sudoku.csproj</projectFile>
     <projectFile>380. Insert Delete GetRandom O1/380. Insert Delete GetRandom O1.csproj</projectFile>
@@ -60,6 +61,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "denis-kondratev"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/denis-kondratev/Top-Interview-150.git",
+    "accountId": "589de528-fb19-4412-9caf-5602c029c02e"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Collections.Immutable/src/System/Collections/Immutable/ImmutableDictionary_2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Collections.Immutable/src/System/Collections/Immutable/SortedInt32KeyNode.cs" root0="SKIP_HIGHLIGHTING" />
@@ -119,9 +132,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\d.kondratev\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\d.kondratev\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\d.kondratev\\AppData\\Local\\Symbols\\src"
+      "/Users/denis/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
+      "/Users/denis/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
+      "/Users/denis/Library/Application Support/Symbols/src"
     ]
   }
 }]]></component>
@@ -468,6 +481,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="289. Game of Life" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/289. Game of Life/289. Game of Life.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="28. Find the Index of the First Occurrence in a String" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -800,6 +831,7 @@
       <workItem from="1706886982752" duration="1097000" />
       <workItem from="1706951304663" duration="1526000" />
       <workItem from="1707077208216" duration="2008000" />
+      <workItem from="1709372539338" duration="663000" />
     </task>
     <task id="LOCAL-00002" summary="Add a solution to the &quot;26. Remove Duplicates from Sorted Array&quot; problem">
       <option name="closed" value="true" />
@@ -1160,6 +1192,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -1172,6 +1205,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add the Candy problem" />
     <MESSAGE value="Solve the Candy problem" />
     <MESSAGE value="Add the Trapping Rain Water problem" />
@@ -1205,92 +1239,43 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/6. Zigzag Conversion/Program.cs</url>
           <line>51</line>
-          <properties documentPath="D:\Projects\Top Interview 150\6. Zigzag Conversion\Program.cs" initialLine="51" containingFunctionPresentation="Lambda expression inside Method 'Convert'">
-            <startOffsets>
-              <option value="1363" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1364" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\Projects\Top Interview 150\6. Zigzag Conversion\Program.cs" containingFunctionPresentation="Lambda expression inside Method 'Convert'" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/6. Zigzag Conversion/Program.cs</url>
           <line>55</line>
-          <properties documentPath="D:\Projects\Top Interview 150\6. Zigzag Conversion\Program.cs" initialLine="55" containingFunctionPresentation="Lambda expression inside Method 'Convert'">
-            <startOffsets>
-              <option value="1459" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1460" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\Projects\Top Interview 150\6. Zigzag Conversion\Program.cs" containingFunctionPresentation="Lambda expression inside Method 'Convert'" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/28. Find the Index of the First Occurrence in a String/Program.cs</url>
           <line>29</line>
-          <properties documentPath="D:\Projects\Top Interview 150\28. Find the Index of the First Occurrence in a String\Program.cs" initialLine="29" containingFunctionPresentation="Method 'StrStr'">
-            <startOffsets>
-              <option value="1020" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1021" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\Projects\Top Interview 150\28. Find the Index of the First Occurrence in a String\Program.cs" containingFunctionPresentation="Method 'StrStr'" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/68. Text Justification/Program.cs</url>
           <line>109</line>
-          <properties documentPath="D:\Projects\Top Interview 150\68. Text Justification\Program.cs" initialLine="109" containingFunctionPresentation="Method 'CreateRow'">
-            <startOffsets>
-              <option value="3816" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3860" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\Projects\Top Interview 150\68. Text Justification\Program.cs" containingFunctionPresentation="Method 'CreateRow'" />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/125. Valid Palindrome/Program.cs</url>
           <line>31</line>
-          <properties documentPath="D:\Projects\Top Interview 150\125. Valid Palindrome\Program.cs" initialLine="31" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="1049" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1084" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\Projects\Top Interview 150\125. Valid Palindrome\Program.cs" containingFunctionPresentation="" />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/76. Minimum Window Substring/Program.cs</url>
           <line>33</line>
-          <properties documentPath="D:\Projects\Top Interview 150\76. Minimum Window Substring\Program.cs" initialLine="33" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="1183" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1218" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\Projects\Top Interview 150\76. Minimum Window Substring\Program.cs" containingFunctionPresentation="" />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/73. Set Matrix Zeroes/Program.cs</url>
           <line>35</line>
-          <properties documentPath="D:\Projects\Top Interview 150\73. Set Matrix Zeroes\Program.cs" initialLine="35" containingFunctionPresentation="Method 'SetZeroes'">
-            <startOffsets>
-              <option value="1047" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1048" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\Projects\Top Interview 150\73. Set Matrix Zeroes\Program.cs" containingFunctionPresentation="Method 'SetZeroes'" />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
